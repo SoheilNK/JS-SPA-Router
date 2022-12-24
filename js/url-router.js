@@ -1,5 +1,7 @@
 document.addEventListener("click", (e) => {
+    console.log(e);
     const { target } = e;
+    // const target = e.target
     if (!target.matches("nav a")) {
         return;
     }
